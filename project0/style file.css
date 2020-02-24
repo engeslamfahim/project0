@@ -1,0 +1,24 @@
+div {
+  font-size: 18px; }
+  div ol {
+    color: brown; }
+  div ul {
+    color: green; }
+
+.green, .orange, .red {
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.green {
+  background-color: green; }
+
+.orange {
+  background-color: orange; }
+
+.red {
+  background-color: red; }
+
+/*# sourceMappingURL=style%20file.css.map */

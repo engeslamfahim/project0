@@ -1,0 +1,34 @@
+div {
+    font-size: 18px;
+
+    ol {
+        color: brown;
+      }
+
+    ul {
+        color: green;
+       }
+    }
+
+%high_light{
+        font-family: sans-serif;
+        font-weight: bold;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+         }
+
+    .green {
+        @extend %high_light;
+        background-color: green;
+    }
+
+    .orange {
+        @extend %high_light;
+        background-color: orange;
+    }
+
+    .red {
+        @extend %high_light;
+        background-color: red;
+    }
